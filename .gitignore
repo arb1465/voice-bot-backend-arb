@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables (VERY IMPORTANT)
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Google Cloud credentials (SECRET 🚨)
+gcs.json
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# SQLite (if ever used)
+*.sqlite3
