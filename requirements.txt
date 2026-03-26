@@ -19,7 +19,3 @@ requests==2.31.0
 
 # Text-to-Speech
 gTTS==2.4.0
-
-# Audio processing (optional but safe)
-numpy==1.24.0
-scipy==1.11.0
