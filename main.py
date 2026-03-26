@@ -30,6 +30,16 @@ logger.info('backend/main.py loaded')
 # Create temp directory if not exists
 os.makedirs('tmp', exist_ok=True)
 
+@app.route('/')
+def home():
+    return {
+        "message": "Voice Bot Backend is running 🚀",
+        "endpoints": [
+            "/api/health",
+            "/api/upload",
+            "/api/conversations"
+        ]
+    }
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
