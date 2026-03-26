@@ -1,17 +1,14 @@
-# Backend Dependencies
-
 # Web Framework
 Flask==3.0.0
 Flask-CORS==4.0.0
 python-dotenv==1.0.0
+gunicorn==21.2.0
 
-# Speech-to-Text
-openai==1.3.0
-librosa==0.10.0
+# OpenAI (STT + GPT)
+openai>=1.3.0
 
 # Database
 pymongo==4.6.0
-bson==0.5.10
 
 # Google Cloud Storage
 google-cloud-storage==2.10.0
@@ -19,11 +16,10 @@ google-auth==2.25.0
 
 # Utilities
 requests==2.31.0
-python-multipart==0.0.6
-
-# Optional: For advanced audio processing
-numpy==1.24.0
-scipy==1.11.0
 
 # Text-to-Speech
 gTTS==2.4.0
+
+# Audio processing (optional but safe)
+numpy==1.24.0
+scipy==1.11.0
